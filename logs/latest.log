@@ -1,206 +1,161 @@
-[00:19:28] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:19:29] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:19:29] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:19:29] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:19:29] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:19:29] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:19:29] [main/INFO]: Reloading ResourceManager: Default
-[00:19:30] [Worker-Main-9/INFO]: Loaded 7 recipes
-[00:19:30] [Worker-Main-9/INFO]: Loaded 927 advancements
-[00:19:32] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[00:19:32] [Server thread/INFO]: Loading properties
-[00:19:32] [Server thread/INFO]: Default game type: SURVIVAL
-[00:19:32] [Server thread/INFO]: Generating keypair
-[00:19:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:19:32] [Server thread/INFO]: Using default channel type
-[00:19:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:19:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:19:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:19:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:19:35] [Server thread/INFO]: Preparing level "world"
-[00:19:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:19:36] [Server thread/INFO]: Preparing spawn area: 0%
-[00:19:36] [Server thread/INFO]: Preparing spawn area: 0%
-[00:19:36] [Server thread/INFO]: Preparing spawn area: 0%
-[00:19:37] [Server thread/INFO]: Preparing spawn area: 0%
-[00:19:38] [Server thread/INFO]: Time elapsed: 3240 ms
-[00:19:38] [Server thread/INFO]: Done (3.398s)! For help, type "help"
-[00:20:13] [Server thread/INFO]: LorDYamA[/0:0:0:0:0:0:0:1:53945] logged in with entity id 174 at (-5.449698237180732, 40.231523797587016, -254.22750725324465)
-[00:20:13] [Server thread/INFO]: LorDYamA joined the game
-[00:21:18] [Server thread/INFO]: Kitty[/0:0:0:0:0:0:0:1:53954] logged in with entity id 381 at (21.098468435096276, 78.0, -246.2909410067603)
+[00:01:52] [Server thread/INFO]: SLANG was blown up by Creeper
+[00:03:27] [Server thread/INFO]: Sou has made the advancement [Acquire Hardware]
+[00:03:47] [Server thread/WARN]: SLANG moved too quickly! 9.609723883685465,1.0,-3.368217066508336
+[00:03:58] [Server thread/INFO]: Sou has made the advancement [Isn't It Iron Pick]
+[00:05:56] [Server thread/WARN]: Sou moved too quickly! -7.385005729962245,2.0,6.631045802414064
+[00:05:56] [Server thread/WARN]: SLANG moved wrongly!
+[00:07:19] [Server thread/WARN]: SLANG moved too quickly! -9.443509410060635,-1.572716202600411,3.8777242930412257
+[00:07:19] [Server thread/WARN]: Sou moved too quickly! 10.042128056438685,0.0,-0.8187446942545193
+[00:07:40] [Server thread/INFO]: Sou was slain by Spider
+[00:07:46] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at zy.b(SourceFile:202) ~[minecraft_server.1.16.4.jar:?]
+	at zs.a(SourceFile:939) ~[minecraft_server.1.16.4.jar:?]
+	at aae.a(SourceFile:467) ~[minecraft_server.1.16.4.jar:?]
+	at aay.a(SourceFile:931) ~[minecraft_server.1.16.4.jar:?]
+	at st.a(SourceFile:122) ~[minecraft_server.1.16.4.jar:?]
+	at st$a.a(SourceFile:56) ~[minecraft_server.1.16.4.jar:?]
+	at ol.a(SourceFile:21) ~[minecraft_server.1.16.4.jar:?]
+	at wb.run(SourceFile:18) ~[minecraft_server.1.16.4.jar:?]
+	at aob.c(SourceFile:144) ~[minecraft_server.1.16.4.jar:?]
+	at aof.c(SourceFile:23) ~[minecraft_server.1.16.4.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:761) ~[minecraft_server.1.16.4.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:155) ~[minecraft_server.1.16.4.jar:?]
+	at aob.y(SourceFile:118) ~[minecraft_server.1.16.4.jar:?]
+	at net.minecraft.server.MinecraftServer.bb(SourceFile:743) ~[minecraft_server.1.16.4.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:737) ~[minecraft_server.1.16.4.jar:?]
+	at aob.bl(SourceFile:103) ~[minecraft_server.1.16.4.jar:?]
+	at net.minecraft.server.MinecraftServer.x(SourceFile:721) ~[minecraft_server.1.16.4.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:674) ~[minecraft_server.1.16.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:257) ~[minecraft_server.1.16.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_271]
+[00:08:14] [Server thread/INFO]: SLANG lost connection: Disconnected
+[00:08:14] [Server thread/INFO]: SLANG left the game
+[00:08:15] [Server thread/INFO]: Sou lost connection: Timed out
+[00:08:15] [Server thread/INFO]: Sou left the game
+[00:08:18] [Server thread/INFO]: RaKun lost connection: Disconnected
+[00:08:18] [Server thread/INFO]: RaKun left the game
+[00:08:18] [Server thread/INFO]: LorDYamA lost connection: Disconnected
+[00:08:18] [Server thread/INFO]: LorDYamA left the game
+[00:08:18] [Server thread/INFO]: Kitty lost connection: Disconnected
+[00:08:18] [Server thread/INFO]: Kitty left the game
+[00:08:23] [Server thread/INFO]: LorDYamA[/0:0:0:0:0:0:0:1:64006] logged in with entity id 30217 at (43.51803483087145, 87.0, 467.69999998807907)
+[00:08:23] [Server thread/INFO]: LorDYamA joined the game
+[00:08:30] [Server thread/INFO]: RaKun[/0:0:0:0:0:0:0:1:64009] logged in with entity id 30231 at (78.30000001192093, 53.40739540236494, 509.69999998807907)
+[00:08:30] [Server thread/INFO]: RaKun joined the game
+[00:08:32] [Server thread/INFO]: SLANG[/0:0:0:0:0:0:0:1:64012] logged in with entity id 30235 at (13.392672091307578, 31.0, 107.19240726372227)
+[00:08:32] [Server thread/INFO]: SLANG joined the game
+[00:08:53] [Server thread/INFO]: Sou[/0:0:0:0:0:0:0:1:64017] logged in with entity id 30390 at (-27.5, 64.0, -257.5)
+[00:08:53] [Server thread/INFO]: Sou joined the game
+[00:09:02] [Server thread/INFO]: Kitty[/0:0:0:0:0:0:0:1:64018] logged in with entity id 30601 at (47.5, 87.0, 460.5)
+[00:09:02] [Server thread/INFO]: Kitty joined the game
+[00:10:25] [Server thread/INFO]: HumanExtreme was slain by Silverfish
+[00:11:08] [Server thread/WARN]: Sou moved too quickly! -0.038401563407454375,-7.0,7.143043892834214
+[00:11:17] [Server thread/INFO]: RaKun lost connection: Disconnected
+[00:11:17] [Server thread/INFO]: RaKun left the game
+[00:11:19] [Server thread/INFO]: Sou lost connection: Disconnected
+[00:11:19] [Server thread/INFO]: Sou left the game
+[00:12:15] [Server thread/INFO]: RaKun[/0:0:0:0:0:0:0:1:64034] logged in with entity id 31931 at (63.75746083377969, 70.0, 509.09141454055055)
+[00:12:15] [Server thread/INFO]: RaKun joined the game
+[00:12:23] [Server thread/INFO]: RaKun lost connection: Disconnected
+[00:12:23] [Server thread/INFO]: RaKun left the game
+[00:12:44] [Server thread/INFO]: RaKun[/0:0:0:0:0:0:0:1:64036] logged in with entity id 32105 at (63.75746083377969, 70.0, 509.09141454055055)
+[00:12:44] [Server thread/INFO]: RaKun joined the game
+[00:12:54] [Server thread/INFO]: SLANG lost connection: Disconnected
+[00:12:54] [Server thread/INFO]: SLANG left the game
+[00:13:01] [Server thread/INFO]: RaKun lost connection: Disconnected
+[00:13:01] [Server thread/INFO]: RaKun left the game
+[00:13:09] [Server thread/INFO]: RaKun[/0:0:0:0:0:0:0:1:64038] logged in with entity id 32254 at (64.69999998807907, 69.0, 509.2607386262943)
+[00:13:09] [Server thread/INFO]: RaKun joined the game
+[00:13:11] [Server thread/INFO]: SLANG[/0:0:0:0:0:0:0:1:64039] logged in with entity id 32277 at (13.7024517718779, 33.0, 152.92339764457466)
+[00:13:11] [Server thread/INFO]: SLANG joined the game
+[00:13:17] [Server thread/INFO]: Sou[/0:0:0:0:0:0:0:1:64040] logged in with entity id 32530 at (-11.718372448623429, 9.5, -227.52526957098428)
+[00:13:17] [Server thread/INFO]: Sou joined the game
+[00:18:32] [Server thread/INFO]: Sou lost connection: Timed out
+[00:18:32] [Server thread/INFO]: Sou left the game
+[00:18:34] [Server thread/INFO]: Kitty lost connection: Timed out
+[00:18:34] [Server thread/INFO]: Kitty left the game
+[00:18:39] [Server thread/INFO]: LorDYamA lost connection: Timed out
+[00:18:39] [Server thread/INFO]: LorDYamA left the game
+[00:18:40] [Server thread/INFO]: RaKun lost connection: Timed out
+[00:18:40] [Server thread/INFO]: RaKun left the game
+[00:18:41] [Server thread/INFO]: SLANG lost connection: Timed out
+[00:18:41] [Server thread/INFO]: SLANG left the game
+[00:18:50] [Server thread/INFO]: SLANG[/0:0:0:0:0:0:0:1:64063] logged in with entity id 35842 at (12.692195558092749, 31.0, 117.01572039021048)
+[00:18:50] [Server thread/INFO]: SLANG joined the game
+[00:18:52] [Server thread/INFO]: LorDYamA[/0:0:0:0:0:0:0:1:64064] logged in with entity id 35950 at (39.59922412988038, 87.0, 475.59916307784925)
+[00:18:52] [Server thread/INFO]: LorDYamA joined the game
+[00:18:53] [Server thread/INFO]: RaKun[/0:0:0:0:0:0:0:1:64066] logged in with entity id 35962 at (79.83570266464693, 47.0, 501.2660732358411)
+[00:18:53] [Server thread/INFO]: RaKun joined the game
+[00:18:54] [Server thread/INFO]: Kitty[/0:0:0:0:0:0:0:1:64067] logged in with entity id 35974 at (-65.80309335312626, 72.0, 445.95251280262937)
+[00:18:54] [Server thread/INFO]: Kitty joined the game
+[00:18:56] [Server thread/INFO]: Sou[/0:0:0:0:0:0:0:1:64068] logged in with entity id 36025 at (-343.1827141184044, 50.0, -32.90442593518325)
+[00:18:56] [Server thread/INFO]: Sou joined the game
+[00:19:16] [Server thread/INFO]: Kitty was blown up by Creeper
+[00:19:35] [Server thread/INFO]: SLANG lost connection: Timed out
+[00:19:35] [Server thread/INFO]: SLANG left the game
+[00:19:37] [Server thread/INFO]: LorDYamA lost connection: Timed out
+[00:19:37] [Server thread/INFO]: LorDYamA left the game
+[00:19:38] [Server thread/INFO]: RaKun lost connection: Timed out
+[00:19:38] [Server thread/INFO]: RaKun left the game
+[00:19:39] [Server thread/INFO]: Kitty lost connection: Timed out
+[00:19:39] [Server thread/INFO]: Kitty left the game
+[00:19:41] [Server thread/INFO]: Sou lost connection: Timed out
+[00:19:41] [Server thread/INFO]: Sou left the game
+[00:19:49] [Server thread/INFO]: Kitty[/0:0:0:0:0:0:0:1:64073] logged in with entity id 36605 at (47.5, 87.0, 468.5)
+[00:19:49] [Server thread/INFO]: Kitty joined the game
+[00:19:50] [Server thread/INFO]: SLANG[/0:0:0:0:0:0:0:1:64075] logged in with entity id 36623 at (30.967178087605753, 57.0, 121.55886367748215)
+[00:19:50] [Server thread/INFO]: SLANG joined the game
+[00:20:01] [Server thread/INFO]: RaKun[/0:0:0:0:0:0:0:1:64076] logged in with entity id 36753 at (80.39100642932195, 46.0, 500.5437408912063)
+[00:20:01] [Server thread/INFO]: RaKun joined the game
+[00:20:12] [Server thread/INFO]: LorDYamA[/0:0:0:0:0:0:0:1:64079] logged in with entity id 36816 at (39.73172957437379, 87.0, 470.30000001192093)
+[00:20:12] [Server thread/INFO]: LorDYamA joined the game
+[00:20:13] [Server thread/INFO]: Sou[/0:0:0:0:0:0:0:1:64081] logged in with entity id 36821 at (-357.8925738677973, 64.0, -9.49896142085259)
+[00:20:13] [Server thread/INFO]: Sou joined the game
+[00:20:27] [Server thread/INFO]: LorDYamA lost connection: Timed out
+[00:20:27] [Server thread/INFO]: LorDYamA left the game
+[00:20:28] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=32, y=67, z=206} fx{x=32, y=65, z=207}
+[00:20:43] [Server thread/INFO]: Sou lost connection: Timed out
+[00:20:43] [Server thread/INFO]: Sou left the game
+[00:20:49] [Server thread/WARN]: RaKun moved wrongly!
+[00:20:50] [Server thread/INFO]: SLANG lost connection: Timed out
+[00:20:50] [Server thread/INFO]: SLANG left the game
+[00:20:55] [Server thread/INFO]: Kitty lost connection: Disconnected
+[00:20:55] [Server thread/INFO]: Kitty left the game
+[00:20:55] [Server thread/INFO]: RaKun lost connection: Disconnected
+[00:20:55] [Server thread/INFO]: RaKun left the game
+[00:20:58] [Server thread/INFO]: SLANG[/0:0:0:0:0:0:0:1:64097] logged in with entity id 37165 at (37.46994510743453, 63.698137872121194, 266.8913125850303)
+[00:20:58] [Server thread/INFO]: SLANG joined the game
+[00:21:12] [Server thread/INFO]: LorDYamA[/0:0:0:0:0:0:0:1:64101] logged in with entity id 37269 at (39.73172957437379, 87.0, 470.30000001192093)
+[00:21:12] [Server thread/INFO]: LorDYamA joined the game
+[00:21:17] [Server thread/INFO]: RaKun[/0:0:0:0:0:0:0:1:64103] logged in with entity id 37327 at (80.47965162183559, 43.0, 496.35048145631566)
+[00:21:17] [Server thread/INFO]: RaKun joined the game
+[00:21:18] [Server thread/INFO]: Kitty[/0:0:0:0:0:0:0:1:64105] logged in with entity id 37352 at (-24.37314984295511, 73.0, 358.5798515326292)
 [00:21:18] [Server thread/INFO]: Kitty joined the game
-[00:21:23] [Server thread/INFO]: HumanExtreme[/0:0:0:0:0:0:0:1:53957] logged in with entity id 402 at (17.00954755332483, 75.0, -240.595892154751)
-[00:21:23] [Server thread/INFO]: HumanExtreme joined the game
-[00:21:43] [Server thread/INFO]: RaKun[/0:0:0:0:0:0:0:1:53960] logged in with entity id 473 at (-40.34615105937427, 9.0, -188.3988049237615)
-[00:21:43] [Server thread/INFO]: RaKun joined the game
-[00:23:04] [Server thread/INFO]: HumanExtreme lost connection: Disconnected
-[00:23:04] [Server thread/INFO]: HumanExtreme left the game
-[00:23:42] [Server thread/INFO]: RaKun has made the advancement [Not Today, Thank You]
-[00:24:58] [Server thread/INFO]: LorDYamA has made the advancement [The Parrots and the Bats]
-[00:29:37] [Server thread/INFO]: SLANG[/0:0:0:0:0:0:0:1:53983] logged in with entity id 2887 at (-50.33213759120072, 65.0, -84.3045029904873)
-[00:29:37] [Server thread/INFO]: SLANG joined the game
-[00:29:42] [Server thread/INFO]: SLANG burned to death
-[00:35:45] [Server thread/INFO]: SLANG has made the advancement [Isn't It Iron Pick]
-[00:36:19] [Server thread/INFO]: HumanExtreme[/0:0:0:0:0:0:0:1:53989] logged in with entity id 4343 at (18.785243049281128, 71.0, -251.05894072113415)
-[00:36:19] [Server thread/INFO]: HumanExtreme joined the game
-[00:41:45] [Server thread/INFO]: HumanExtreme has made the advancement [Suit Up]
-[00:47:48] [Server thread/INFO]: SLANG has made the advancement [We Need to Go Deeper]
-[00:47:49] [Server thread/INFO]: RaKun has made the advancement [We Need to Go Deeper]
-[00:47:59] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=56, y=66, z=-210} fx{x=57, y=65, z=-210}
-[00:48:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=39, y=64, z=-183} fx{x=39, y=62, z=-183}
-[00:53:22] [Server thread/INFO]: SLANG has made the advancement [Suit Up]
-[01:01:47] [Server thread/INFO]: Eclipse[/0:0:0:0:0:0:0:1:54007] logged in with entity id 10080 at (-38.5, 64.0, -250.5)
-[01:01:47] [Server thread/INFO]: Eclipse joined the game
-[01:02:57] [Server thread/INFO]: SLANG fell from a high place
-[01:02:59] [Server thread/INFO]: Eclipse has made the advancement [Suit Up]
-[01:03:25] [Server thread/INFO]: RaKun fell from a high place
-[01:04:26] [Server thread/INFO]: SLANG lost connection: Disconnected
-[01:04:26] [Server thread/INFO]: SLANG left the game
-[01:08:20] [Server thread/INFO]: SLANG[/0:0:0:0:0:0:0:1:53648] logged in with entity id 11549 at (-77.74594689930055, 62.073263998046656, -248.58024399215563)
-[01:08:20] [Server thread/INFO]: SLANG joined the game
-[01:08:52] [Server thread/INFO]: SLANG has made the advancement [Fishy Business]
-[01:11:38] [Server thread/INFO]: Eclipse has made the advancement [Sweet Dreams]
-[01:11:53] [Server thread/INFO]: HumanExtreme lost connection: Disconnected
-[01:11:53] [Server thread/INFO]: HumanExtreme left the game
-[01:12:53] [Server thread/INFO]: <Eclipse> hi
-[01:12:57] [Server thread/INFO]: <Eclipse> hi dear
-[01:12:58] [Server thread/INFO]: <RaKun> hello
-[01:15:50] [Server thread/INFO]: SLANG was slain by Enderman
-[01:15:52] [Server thread/WARN]: Fetching packet for removed entity bcv['Raw Salmon'/12797, l='ServerLevel[world]', x=21.63, y=71.00, z=-250.34]
-[01:17:16] [Server thread/INFO]: SLANG lost connection: Disconnected
-[01:17:16] [Server thread/INFO]: SLANG left the game
-[01:17:42] [Server thread/INFO]: RaKun was slain by Enderman
-[01:18:22] [Server thread/INFO]: SLANG[/0:0:0:0:0:0:0:1:53720] logged in with entity id 13121 at (12.358635954506932, 67.0, -217.6880157346582)
-[01:18:22] [Server thread/INFO]: SLANG joined the game
-[01:20:02] [Server thread/INFO]: <RaKun> somebody took my shield
-[01:20:10] [Server thread/INFO]: <RaKun> can I please get it back?
-[01:20:16] [Server thread/INFO]: <SLANG> SOMEone took my rod
-[01:20:43] [Server thread/INFO]: <Eclipse> someone took my bed
-[01:21:33] [Server thread/INFO]: SLANG was slain by Enderman
-[01:21:55] [Server thread/INFO]: <Eclipse> kitti
-[01:22:00] [Server thread/INFO]: <Eclipse> help
-[01:23:53] [Server thread/INFO]: Eclipse has made the advancement [Getting an Upgrade]
-[01:25:18] [Server thread/INFO]: LorDYamA lost connection: Disconnected
-[01:25:18] [Server thread/INFO]: LorDYamA left the game
-[01:25:18] [Server thread/WARN]: handleDisconnection() called twice
-[01:25:25] [Server thread/INFO]: LorDYamA[/0:0:0:0:0:0:0:1:53731] logged in with entity id 14405 at (4.097468588412141, 67.0, -234.24897407713445)
-[01:25:25] [Server thread/INFO]: LorDYamA joined the game
-[01:26:41] [Server thread/INFO]: guha[/0:0:0:0:0:0:0:1:53734] logged in with entity id 14720 at (-38.5, 65.0, -260.5)
-[01:26:41] [Server thread/INFO]: guha joined the game
-[01:26:54] [Server thread/INFO]: HumanExtreme[/0:0:0:0:0:0:0:1:53738] logged in with entity id 14770 at (12.14649130155941, 74.0, -255.0907042086535)
-[01:26:54] [Server thread/INFO]: HumanExtreme joined the game
-[01:26:56] [Server thread/INFO]: <RaKun> hello there~
-[01:27:25] [Server thread/INFO]: Eclipse lost connection: Disconnected
-[01:27:25] [Server thread/INFO]: Eclipse left the game
-[01:28:16] [Server thread/INFO]: HumanExtreme lost connection: Disconnected
-[01:28:16] [Server thread/INFO]: HumanExtreme left the game
-[01:31:00] [Server thread/INFO]: SLANG lost connection: Disconnected
-[01:31:00] [Server thread/INFO]: SLANG left the game
-[01:31:55] [Server thread/INFO]: guha has made the advancement [Sweet Dreams]
-[01:31:57] [Server thread/INFO]: HumanExtreme[/0:0:0:0:0:0:0:1:53764] logged in with entity id 15720 at (18.841916164195112, 71.0, -249.21289640227081)
-[01:31:57] [Server thread/INFO]: HumanExtreme joined the game
-[01:32:01] [Server thread/INFO]: <guha> ah ah fuck me
-[01:32:22] [Server thread/INFO]: Eclipse[/0:0:0:0:0:0:0:1:53775] logged in with entity id 15764 at (16.84580523586951, 76.5, -243.94290157886525)
-[01:32:22] [Server thread/INFO]: Eclipse joined the game
-[01:32:29] [Server thread/INFO]: Eclipse lost connection: Disconnected
-[01:32:29] [Server thread/INFO]: Eclipse left the game
-[01:33:24] [Server thread/INFO]: HumanExtreme has made the advancement [The Parrots and the Bats]
-[01:35:10] [Server thread/INFO]: <guha> ah ah
-[01:38:00] [Server thread/INFO]: Eclipse[/0:0:0:0:0:0:0:1:53787] logged in with entity id 17722 at (16.84580523586951, 76.5, -243.94290157886525)
-[01:38:00] [Server thread/INFO]: Eclipse joined the game
-[01:39:40] [Server thread/INFO]: guha was shot by Skeleton
-[01:41:17] [Server thread/INFO]: guha has made the advancement [Monster Hunter]
-[01:42:22] [Server thread/INFO]: guha has made the advancement [The Parrots and the Bats]
-[01:47:07] [Server thread/INFO]: Kitty lost connection: Disconnected
-[01:47:07] [Server thread/INFO]: Kitty left the game
-[01:47:10] [Server thread/INFO]: LorDYamA lost connection: Disconnected
-[01:47:10] [Server thread/INFO]: LorDYamA left the game
-[01:47:37] [Server thread/INFO]: LorDYamA[/0:0:0:0:0:0:0:1:53812] logged in with entity id 21470 at (120.77800926105256, 100.0, 446.28781214211534)
-[01:47:37] [Server thread/INFO]: LorDYamA joined the game
-[01:47:44] [Server thread/INFO]: LorDYamA lost connection: Disconnected
-[01:47:44] [Server thread/INFO]: LorDYamA left the game
-[01:47:44] [Server thread/INFO]: guha lost connection: Disconnected
-[01:47:44] [Server thread/INFO]: guha left the game
-[01:47:50] [Server thread/INFO]: LorDYamA[/0:0:0:0:0:0:0:1:53820] logged in with entity id 21515 at (120.77800926105256, 100.0, 446.28781214211534)
-[01:47:50] [Server thread/INFO]: LorDYamA joined the game
-[01:47:52] [Server thread/INFO]: guha[/0:0:0:0:0:0:0:1:53821] logged in with entity id 21522 at (1.8723969902508044, 67.0, -226.679988807778)
-[01:47:52] [Server thread/INFO]: guha joined the game
-[01:48:06] [Server thread/INFO]: RaKun lost connection: Disconnected
-[01:48:06] [Server thread/INFO]: RaKun left the game
-[01:48:12] [Server thread/INFO]: LorDYamA lost connection: Disconnected
-[01:48:12] [Server thread/INFO]: LorDYamA left the game
-[01:48:25] [Server thread/INFO]: LorDYamA[/0:0:0:0:0:0:0:1:53828] logged in with entity id 21628 at (123.14732779295024, 100.0, 446.03609433229684)
-[01:48:25] [Server thread/INFO]: LorDYamA joined the game
-[01:48:25] [Server thread/INFO]: RaKun[/0:0:0:0:0:0:0:1:53829] logged in with entity id 21773 at (123.69999998807907, 100.0, 445.8954255613539)
-[01:48:25] [Server thread/INFO]: RaKun joined the game
-[01:48:28] [Server thread/INFO]: Kitty[/0:0:0:0:0:0:0:1:53831] logged in with entity id 21860 at (125.69999998807907, 100.0, 444.30000001192093)
-[01:48:28] [Server thread/INFO]: Kitty joined the game
-[01:48:33] [Server thread/INFO]: guha was blown up by Creeper
-[01:49:03] [Server thread/INFO]: Eclipse lost connection: Disconnected
-[01:49:03] [Server thread/INFO]: Eclipse left the game
-[01:49:56] [Server thread/INFO]: guha has made the advancement [A Seedy Place]
-[01:51:21] [Server thread/INFO]: Eclipse[/0:0:0:0:0:0:0:1:53836] logged in with entity id 23573 at (12.637496759390853, 71.0, -241.2729768786748)
-[01:51:21] [Server thread/INFO]: Eclipse joined the game
-[01:53:17] [Server thread/INFO]: Eclipse lost connection: Disconnected
-[01:53:17] [Server thread/INFO]: Eclipse left the game
-[02:00:05] [Server thread/INFO]: guha was blown up by Creeper
-[02:01:53] [Server thread/INFO]: LorDYamA lost connection: Disconnected
-[02:01:53] [Server thread/INFO]: LorDYamA left the game
-[02:02:48] [Server thread/INFO]: guha lost connection: Disconnected
-[02:02:48] [Server thread/INFO]: guha left the game
-[02:02:57] [Server thread/INFO]: HumanExtreme was blown up by Creeper
-[02:03:00] [Server thread/INFO]: Kitty lost connection: Disconnected
-[02:03:00] [Server thread/INFO]: Kitty left the game
-[02:03:12] [Server thread/INFO]: Kitty[/0:0:0:0:0:0:0:1:53845] logged in with entity id 29114 at (42.09727915020044, 79.0, 478.3001058200086)
-[02:03:12] [Server thread/INFO]: Kitty joined the game
-[02:03:16] [Server thread/INFO]: guha[/0:0:0:0:0:0:0:1:53847] logged in with entity id 29307 at (97.74250279000236, 65.0, -283.31034415334)
-[02:03:16] [Server thread/INFO]: guha joined the game
-[02:13:21] [Server thread/INFO]: HumanExtreme was blown up by Creeper
-[02:13:22] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/33347, l='ServerLevel[world]', x=-60.47, y=62.00, z=322.88]
-[02:14:50] [Server thread/INFO]: guha was shot by Skeleton
-[02:18:13] [Server thread/INFO]: guha was shot by Skeleton
-[02:19:11] [Server thread/INFO]: Kitty lost connection: Disconnected
-[02:19:11] [Server thread/INFO]: Kitty left the game
-[02:19:30] [Server thread/INFO]: Kitty[/0:0:0:0:0:0:0:1:53864] logged in with entity id 34890 at (39.90169572649498, 79.0, 478.3169939822661)
-[02:19:30] [Server thread/INFO]: Kitty joined the game
-[02:20:35] [Server thread/INFO]: guha has made the advancement [Take Aim]
-[02:20:55] [Server thread/INFO]: guha was shot by Skeleton
-[02:28:42] [Server thread/INFO]: guha has made the advancement [Stone Age]
-[02:31:07] [Server thread/INFO]: SLANG[/0:0:0:0:0:0:0:1:53869] logged in with entity id 38399 at (18.30210405480561, 71.0, -247.295632494557)
-[02:31:07] [Server thread/INFO]: SLANG joined the game
-[02:31:40] [Server thread/INFO]: HumanExtreme lost connection: Disconnected
-[02:31:40] [Server thread/INFO]: HumanExtreme left the game
-[02:31:43] [Server thread/INFO]: Kitty lost connection: Disconnected
-[02:31:43] [Server thread/INFO]: Kitty left the game
-[02:32:07] [Server thread/INFO]: HumanExtreme[/0:0:0:0:0:0:0:1:53874] logged in with entity id 38880 at (41.51061290433967, 79.0, 477.75705922776433)
-[02:32:07] [Server thread/INFO]: HumanExtreme joined the game
-[02:32:11] [Server thread/INFO]: Kitty[/0:0:0:0:0:0:0:1:53876] logged in with entity id 38949 at (44.19433007926846, 79.0, 477.20673147896946)
-[02:32:11] [Server thread/INFO]: Kitty joined the game
-[02:35:36] [Server thread/INFO]: guha has made the advancement [Getting an Upgrade]
-[02:36:51] [Server thread/INFO]: SLANG was blown up by Creeper
-[02:37:45] [Server thread/INFO]: SLANG has made the advancement [The Parrots and the Bats]
-[02:39:25] [Server thread/INFO]: SLANG lost connection: Disconnected
-[02:39:25] [Server thread/INFO]: SLANG left the game
-[02:41:20] [Server thread/INFO]: Kitty lost connection: Disconnected
-[02:41:20] [Server thread/INFO]: Kitty left the game
-[02:41:25] [Server thread/INFO]: HumanExtreme lost connection: Disconnected
-[02:41:25] [Server thread/INFO]: HumanExtreme left the game
-[02:42:08] [Server thread/INFO]: guha hit the ground too hard
-[02:42:54] [Server thread/INFO]: <guha> ah ah
-[02:43:15] [Server thread/INFO]: guha lost connection: Disconnected
-[02:43:15] [Server thread/INFO]: guha left the game
-[02:43:30] [Server thread/INFO]: RaKun lost connection: Disconnected
-[02:43:30] [Server thread/INFO]: RaKun left the game
-[02:44:37] [Server thread/INFO]: Stopping the server
-[02:44:37] [Server thread/INFO]: Stopping server
-[02:44:37] [Server thread/INFO]: Saving players
-[02:44:37] [Server thread/INFO]: Saving worlds
-[02:44:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:44:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:44:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[02:44:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:44:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[02:44:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:44:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:44:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:44:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:22:12] [Server thread/INFO]: Sou[/0:0:0:0:0:0:0:1:64121] logged in with entity id 37520 at (-354.6512344410652, 72.0, -29.227582263029582)
+[00:22:12] [Server thread/INFO]: Sou joined the game
+[00:22:42] [Server thread/INFO]: Sou lost connection: Timed out
+[00:22:42] [Server thread/INFO]: Sou left the game
+[00:22:49] [Server thread/INFO]: RaKun lost connection: Timed out
+[00:22:49] [Server thread/INFO]: RaKun left the game
+[00:22:49] [Server thread/INFO]: Kitty lost connection: Timed out
+[00:22:49] [Server thread/INFO]: Kitty left the game
+[00:22:58] [Server thread/INFO]: LorDYamA lost connection: Timed out
+[00:22:58] [Server thread/INFO]: LorDYamA left the game
+[00:22:58] [Server thread/INFO]: SLANG lost connection: Timed out
+[00:22:58] [Server thread/INFO]: SLANG left the game
+[00:23:15] [Server thread/INFO]: SLANG[/0:0:0:0:0:0:0:1:64129] logged in with entity id 37874 at (41.72370272152478, 80.0, 464.72061116136103)
+[00:23:15] [Server thread/INFO]: SLANG joined the game
+[00:23:50] [Server thread/INFO]: Stopping the server
+[00:23:50] [Server thread/INFO]: Stopping server
+[00:23:50] [Server thread/INFO]: Saving players
+[00:23:50] [Server thread/INFO]: Saving worlds
+[00:23:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:23:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:23:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:23:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:23:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:23:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:23:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:23:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:23:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
